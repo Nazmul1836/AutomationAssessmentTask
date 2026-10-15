@@ -1,0 +1,49 @@
+{
+  "product": "Combination Pliers",
+  "billingAddress": {
+    "country": "NL",
+    "postalCode": "1011AB",
+    "houseNumber": "10"
+  },
+  "paymentMethods": [
+    {
+      "label": "Bank Transfer",
+      "method": "bank-transfer",
+      "fields": {
+        "bank_name": "ING Bank",
+        "account_name": "Jane Doe",
+        "account_number": "123456789"
+      }
+    },
+    {
+      "label": "Cash on Delivery",
+      "method": "cash-on-delivery",
+      "fields": {}
+    },
+    {
+      "label": "Credit Card",
+      "method": "credit-card",
+      "fields": {
+        "credit_card_number": "4111-1111-1111-1111",
+        "expiration_date": "12/2030",
+        "cvv": "123",
+        "card_holder_name": "Jane Doe"
+      }
+    },
+    {
+      "label": "Buy Now Pay Later",
+      "method": "buy-now-pay-later",
+      "fields": {
+        "monthly_installments": "6"
+      }
+    },
+    {
+      "label": "Gift Card",
+      "method": "gift-card",
+      "fields": {
+        "gift_card_number": "GIFT1234ABCD5678",
+        "validation_code": "ABC123"
+      }
+    }
+  ]
+}
